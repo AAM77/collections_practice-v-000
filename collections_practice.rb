@@ -59,4 +59,4 @@ def add_s(array)
     |name|
     name.push('s')
   end
-  end
+end
