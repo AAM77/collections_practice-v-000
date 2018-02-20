@@ -55,8 +55,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each do
-    |name|
-    name.push('s')
-  end
+  i = 0
+  while (i < array.length)
+    if (i == 1)
+      i = i + 1
+    
 end
