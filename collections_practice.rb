@@ -20,6 +20,7 @@ end
 
 #return a reverse array
 def reverse_array(array)
+  array.collect{|word| array.unshift(word)}
   i = 0
   new_array = [ ]
   while (i < array.length)
