@@ -20,7 +20,7 @@ end
 
 #return a reverse array
 def reverse_array(array)
-  array.collect{|word| unshift(word)}
+  array.collect{|word| }
 end
 
 #turns third char into a dollar sign ('$')
