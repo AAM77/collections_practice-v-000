@@ -45,13 +45,7 @@ end
 #returns the sum of all the numbers in the array
 def sum_array(array)
   sum = 0
-  i = 0
-  while (i < array.length)
-    sum = sum + array[i]
-    i = i + 1
-  end
-
-  return sum
+  array.each {|num| sum = sum + num}
 end
 
 #adds an 's' to the end of each array element, except for the second element
