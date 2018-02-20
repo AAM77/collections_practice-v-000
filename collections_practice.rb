@@ -45,6 +45,7 @@ end
 #returns the sum of all the numbers in the array
 def sum_array(array)
   array.inject(0) {|result_memo, element| result_memeo + element}
+end
 
 #adds an 's' to the end of each array element, except for the second element
 def add_s(array)
