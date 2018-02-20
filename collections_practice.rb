@@ -49,8 +49,9 @@ end
 
 #adds an 's' to the end of each array element, except for the second element
 def add_s(array)
-  array.each_with_index.collect do |word, index| 
+  array.each_with_index.collect do |word, index|
     if (index != 1)
       word = word + 's'}
     end
+  end
 end
