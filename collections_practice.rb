@@ -26,12 +26,13 @@ def reverse_array(array)
     new_array.unshift(array[i])
     i = i + 1
   end
+
   return new_array
 end
 
+#turns third char into a dollar sign ('$')
 def kesha_maker(array)
   array.each do |name|
     name[2] = '$'
   end
 end
-
