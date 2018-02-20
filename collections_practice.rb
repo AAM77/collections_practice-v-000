@@ -26,7 +26,6 @@ def reverse_array(array)
     new_array.unshift(array[i])
     i = i + 1
   end
-
   return new_array
 end
 
@@ -35,3 +34,4 @@ def kesha_maker(array)
     name[2] = '$'
   end
 end
+
