@@ -25,5 +25,4 @@ def reverse_array(array)
     array.insert(0, array.pop)
     i = i + 1
   end
-    
-    
+end
