@@ -52,6 +52,6 @@ def add_s(array)
       word = word
     else
       word = word + 's'
-    end
-  end
-end
+    end # if statement
+  end # collect method
+end # self
