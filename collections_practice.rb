@@ -24,6 +24,8 @@ def reverse_array(array)
   array.each do |word|
     new_array.unshift(word)
   end
+
+  return new_array
 end
 
 #turns third char into a dollar sign ('$')
