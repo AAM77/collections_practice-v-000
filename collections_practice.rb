@@ -39,4 +39,5 @@ end
 
 #returns all strings that start with the letter 'a'
 def find_a(array)
-  array.select{|name| name.starts_with?('a')}
+  array.select{|name| name.start_with?('a')}
+end
