@@ -14,6 +14,6 @@ def sort_array_char_count(array)
 end
 
 #swaps the second and third elements
-def swap_elements(array, index, destination_index)
-  array.insert(destination_index, array.delete_at(index))
+def swap_elements(array)
+  array.insert(1, array.delete_at(2))
 end
