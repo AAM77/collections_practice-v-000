@@ -54,6 +54,7 @@ def sum_array(array)
   return sum
 end
 
+#adds an 's' to the end of each array element, except for the second element
 def add_s(array)
   i = 0
   while (i < array.length)
