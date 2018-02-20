@@ -48,14 +48,5 @@ def sum_array(array)
 
 #adds an 's' to the end of each array element, except for the second element
 def add_s(array)
-  i = 0
-  while (i < array.length)
-    if (i == 1)
-      i = i + 1
-    else
-      array[i] = array[i] + 's'
-      i = i + 1
-    end
-  end
-    return array
+  array.collect{|word| word[word.length - 1] + 's'}
 end
