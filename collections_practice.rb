@@ -22,7 +22,7 @@ end
 def reverse_array(array)
   i = 0
   while (i < array.length)
-    array.insert(0, array.pop)
+    array.insert(0, array.delete_at(array.length - 1))
     i = i + 1
   end
 end
