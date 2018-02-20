@@ -20,7 +20,12 @@ end
 
 #return a reverse array
 def reverse_array(array)
-  return array.collect do
-    array.insert(0, array.pop)
+  i = 0
+  new_array = [ ]
+  while (i < array.length)
+    new_array.unshift(array[i])
+    i = i + 1
   end
+
+  return new_array
 end
