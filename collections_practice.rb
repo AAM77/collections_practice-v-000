@@ -53,3 +53,10 @@ def sum_array(array)
 
   return sum
 end
+
+def add_s(array)
+  array.each do
+    |name|
+    name.push('s')
+  end
+  end
