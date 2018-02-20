@@ -18,4 +18,12 @@ def swap_elements(array)
   array.insert(1, array.delete_at(2))
 end
 
-
+#return a reverse array
+def reverse_array(array)
+  i = 0
+  while (i < array.length)
+    array.insert(0, array.pop)
+    i = i + 1
+  end
+    
+    
