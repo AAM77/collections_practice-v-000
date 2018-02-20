@@ -24,6 +24,7 @@ def reverse_array(array)
   new_array = [ ]
   array.each do |word|
     new_array.unshift(word)
+  end
   while (i < array.length)
     new_array.unshift(array[i])
     i = i + 1
