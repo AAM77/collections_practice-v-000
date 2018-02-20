@@ -46,6 +46,7 @@ end
 def sum_array(array)
   sum = 0
   array.each {|num| sum = sum + num}
+  return sum
 end
 
 #adds an 's' to the end of each array element, except for the second element
