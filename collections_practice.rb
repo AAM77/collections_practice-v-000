@@ -44,7 +44,7 @@ end
 
 #returns the sum of all the numbers in the array
 def sum_array(array)
-  array.inject(0){|result_memo, element| result_memo + element}
+  array.inject(0){|sum, number| sum + number}
 end
 
 #adds an 's' to the end of each array element, except for the second element
