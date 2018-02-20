@@ -23,5 +23,4 @@ def reverse_array(array)
   return array.collect do
     array.insert(0, array.pop)
   end
-
 end
