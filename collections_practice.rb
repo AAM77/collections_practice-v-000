@@ -44,6 +44,7 @@ end
 
 #returns the sum of all the numbers in the array
 def sum_array(array)
+  array.inject(0){|result_memo, element| result_memo + element}
   sum = 0
   array.each {|num| sum = sum + num}
   return sum
