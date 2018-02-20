@@ -49,5 +49,5 @@ end
 
 #adds an 's' to the end of each array element, except for the second element
 def add_s(array)
-  array.collect{|word| word[word.length - 1] + 's'}
+  array.collect{|word| word = word + 's'}
 end
