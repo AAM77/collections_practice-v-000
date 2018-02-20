@@ -20,7 +20,6 @@ end
 
 #return a reverse array
 def reverse_array(array)
-  i = 0
   new_array = [ ]
   array.each do |word|
     new_array.unshift(word)
