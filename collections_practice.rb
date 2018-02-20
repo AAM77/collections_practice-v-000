@@ -59,5 +59,9 @@ def add_s(array)
   while (i < array.length)
     if (i == 1)
       i = i + 1
-    
+    else
+      array[i] = array[i] + 's'
+      i = i + 1
+    end
+
 end
