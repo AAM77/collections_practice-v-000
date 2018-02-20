@@ -36,3 +36,7 @@ def kesha_maker(array)
     name[2] = '$'
   end
 end
+
+#returns all strings that start with the letter 'a'
+def find_a(array)
+  array.select{|name| name.starts_with?('a')}
