@@ -41,3 +41,15 @@ end
 def find_a(array)
   array.select{|name| name.start_with?('a')}
 end
+
+#returns the sum of all the numbers in the array
+def sum_array(array)
+  sum = 0
+  i = 0
+  while (i < array.length)
+    total = total + array[i]
+    i = i + 1
+  end
+
+  return sum
+end
